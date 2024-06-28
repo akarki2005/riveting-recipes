@@ -1,4 +1,5 @@
 // Main JS File
+showPage('front-page')
 
 function showPage(page_id) {
     // hide all divs
