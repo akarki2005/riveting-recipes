@@ -13,11 +13,14 @@
     font-family: "Roboto Slab", serif
   }
   button {
+    font-size:large;
+    background-color:lightblue;
+    color:blue;
+    border: 10px color blue;
     transition: all 0.5s;
   }
   button:hover {
     transform: scale(1.1);
-    background-color: white;
   }
 </style>
 </head>
@@ -29,9 +32,9 @@
     <center>
       <h1>Welcome to my website!</h1>
       <p>This website will contain all of my recipes, stored for easy access in the future.</p>
-      <button onclick="showPage('tuscan-chicken-pasta-page')" style="background-color:bisque;color:black">Tuscan Chicken Pasta</button>
+      <button onclick="showPage('tuscan-chicken-pasta-page')">Tuscan Chicken Pasta</button>
       <br>
-      <button onclick="showPage('chicken-stir-fry-page')" style="background-color:bisque;color:black">Chicken Stir Fry</button>
+      <button onclick="showPage('chicken-stir-fry-page')">Chicken Stir Fry</button>
     </center>
   </div>
   <!--Tuscan Chicken Pasta Page-->
