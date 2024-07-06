@@ -10,34 +10,34 @@
   <link href="https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@100..900&display=swap" rel="stylesheet">  
 <style>
   .rslab {
-font-family: "Roboto Slab", serif
+    font-family: "Roboto Slab", serif
   }
   button:hover {
-  background-color:beige;
-  transition-timing-function:ease-in-out;
-  transform: scale(120%);
+    width:125%;
+    height:125%;
+    transition: width 2s height 2s
   }
 </style>
 </head>
 <!--Body-->
-<body onload="showPage('front-page')">
+<body class="rslab" onload="showPage('front-page')">
   <!--Front Page-->
   <div id="front-page">
     <title>Aayush's Riveting Recipes</title>
     <center>
-      <h1 class="rslab">Welcome to my website!</h1>
-      <p class="rslab">This website will contain all of my recipes, stored for easy access in the future.</p>
-      <button onclick="showPage('tuscan-chicken-pasta-page')" class="rslab" style="background-color:bisque;color:black">Tuscan Chicken Pasta</button>
-      <button onclick="showPage('chicken-stir-fry-page')" class="rslab" style="background-color:bisque;color:black">Chicken Stir Fry</button>
+      <h1>Welcome to my website!</h1>
+      <p>This website will contain all of my recipes, stored for easy access in the future.</p>
+      <button onclick="showPage('tuscan-chicken-pasta-page')" style="background-color:bisque;color:black">Tuscan Chicken Pasta</button>
+      <button onclick="showPage('chicken-stir-fry-page')" style="background-color:bisque;color:black">Chicken Stir Fry</button>
     </center>
   </div>
   <!--Tuscan Chicken Pasta Page-->
   <div id="tuscan-chicken-pasta-page">
     <title>Tuscan Chicken Pasta</title>
     <center>
-      <h1 class="rslab">Tuscan Chicken Pasta</h1>
+      <h1>Tuscan Chicken Pasta</h1>
     </center>
-    <h3 class="rslab">Ingredients</h3>
+    <h3>Ingredients</h3>
     <ul>
       <li>Chicken Breast</li>
       <li>Penne Pasta</li>
@@ -48,9 +48,9 @@ font-family: "Roboto Slab", serif
   <div id="chicken-stir-fry-page">
     <title>Chicken Stir Fry</title>
     <center>
-      <h1 class="rslab">Chicken Stir Fry</h1>
+      <h1>Chicken Stir Fry</h1>
     </center>
-    <h3 class="rslab">Ingredients</h3>
+    <h3>Ingredients</h3>
     <ul>
       <li>Rice</li>
       <li>Chicken Breast</li>
