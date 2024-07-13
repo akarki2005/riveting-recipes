@@ -1,0 +1,21 @@
+.rslab {
+    font-family: "Roboto Slab", serif
+  }
+button {
+    font-size:large;
+    background-color:beige;
+    color:black;
+    border: 3px solid black;
+    transition: all 0.5s;
+  }
+button:hover {
+    transform: scale(1.1);
+    background-color:burlywood;
+  }
+img {
+    border: 6px solid black;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 25%;
+  }

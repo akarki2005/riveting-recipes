@@ -8,29 +8,7 @@
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@100..900&display=swap" rel="stylesheet">  
-<style>
-  .rslab {
-    font-family: "Roboto Slab", serif
-  }
-  button {
-    font-size:large;
-    background-color:beige;
-    color:black;
-    border: 3px solid black;
-    transition: all 0.5s;
-  }
-  button:hover {
-    transform: scale(1.1);
-    background-color:burlywood;
-  }
-  img {
-    border: 6px solid black;
-    display: block;
-    margin-left: auto;
-    margin-right: auto;
-    width: 50%;
-  }
-</style>
+<link rel="stylesheet" href="styling.css">
 </head>
 <!--Body-->
 <body style="font-family:'Roboto Slab', serif" onload="showPage('front-page')">
@@ -38,8 +16,7 @@
   <div id="front-page">
     <title>Aayush's Riveting Recipes</title>
     <center>
-      <h1>Welcome to my website!</h1>
-      <p>This website will contain all of my recipes, stored for easy access in the future.</p>
+      <h1>Recipes</h1>
       <button class="rslab" onclick="showPage('tuscan-chicken-pasta-page')">Tuscan Chicken Pasta</button>
       <p>
       <button class="rslab" onclick="showPage('mac-and-cheese-page')">Mac and Cheese</button>
@@ -51,14 +28,39 @@
     <center>
       <h1>Tuscan Chicken Pasta</h1>
     <img src="https://www.thecountrycook.net/wp-content/uploads/2022/08/thumbnail-Tuscan-Chicken-Pasta-scaled.jpg">
-    </center>
+    <p>
+    Prep Time: 30 Minutes
+    <br>
+    Servings: 4
+    </p>
     <h3>Ingredients</h3>
-    <ul>
-      <li>Chicken Breast</li>
-      <li>Penne Pasta</li>
-      <li>Whipping Cream</li>
-    </ul>
+    <p>
+    1/2 cup penne Pasta<br>
+    2 pounds chicken breast<br>
+    3 cups heavy cream<br>
+    3 cups spinach<br>
+    1 cup sundried tomatoes<br>
+    1/2 cup parmesan cheese<br>
+    2 cloves garlic<br>
+    2 tablespoons butter<br>
+    Italian seasoning<br>
+    Salt and pepper<br>
+    Olive oil<br>
+    </p>
+    <h3>Instructions</h3>
+    <p>
+    1. In a pot, boil water over high heat, adding a pinch of salt once it has come to a boil<br>
+    2. Add penne pasta to pot and cook for approximately 10 minutes, then drain and set aside<br>
+    3. Season chicken breast with salt, pepper and italian seasoning on both sides<br>
+    4. Fill a pan with olive oil and cook chicken over medium-high heat, until golden<br>
+    5. Set chicken aside to cool, then dice into bite-sized strips<br>
+    6. In the same pan, begin the sauce by sauteing the butter, garlic, spinach and tomatoes over medium heat<br>
+    7. After spinach wilts, add heavy cream and let sauce simmer<br>
+    8. Remove from heat and add parmesan cheese and italian seasoning, as well as salt and pepper<br>
+    9. Add cooked pasta and chicken to the sauce, mixing well until everything is combined<br>
+    </p> 
     <button class="rslab" onclick="showPage('front-page')">Back to Front Page</button>
+  </center>
   </div>
   <!--Mac and Cheese Page-->
   <div id="mac-and-cheese-page">
